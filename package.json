@@ -1,0 +1,14 @@
+{
+  "name": "intel-iot-commercial-admin-interface",
+  "version": "1.0.3",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.1",
+    "intel-commerical-edge-network-database-models": "latest",
+    "mongoose": "^4.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

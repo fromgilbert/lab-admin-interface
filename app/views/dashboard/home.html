@@ -1,0 +1,37 @@
+<div>
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Dashboard</h1>
+        </div>
+    </div>
+    <div class="row">
+        <stats number="{{noOfSensor}}" comments="Sensors" colour="green" type="forumbee" goto="dashboard.sensorListTable"></stats>
+        <stats number="{{noOfActuator}}" comments="Actuators" colour="primary" type="external-link" goto="dashboard.actuatorListTable"></stats>
+        <stats number="{{noOfTrigger}}" comments="Triggers" colour="yellow" type="bolt" goto="dashboard.triggerListTable"></stats>
+        <stats number="{{noOfError}}" comments="Errors" colour="red" type="bomb" goto="dashboard.errorListTable"></stats>
+    </div>
+
+
+    <!--
+
+	<h3>Real-time Graphs of Temperature and Light Sensor</h3>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">Real-time Graphs of Temperature and Light Sensor</div>
+        <div class="panel-body">
+            <form class="form-inline">
+                <button class="btn btn-primary" ng-click="SensorDataSeries(100)">
+                    <span ng-if="!sensorData100">Start</span>
+                    <span ng-if="sensorData100">Stop</span>
+                </button>
+            </form>
+            <rickshaw rickshaw-options="sensorOptions100" rickshaw-features="sensorFeatures100" rickshaw-series="sensorSeries100"></rickshaw>
+        </div>
+    </div>
+
+	 -->
+
+
+
+
+</div>
