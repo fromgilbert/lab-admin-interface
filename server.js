@@ -37,11 +37,11 @@ mdb.once('open', function(callback) {
 });
 
 // Import the Database Model Objects
-var Data = require('intel-commerical-edge-network-database-models').DataModel;
-var Sensor = require('intel-commerical-edge-network-database-models').SensorModel;
-var Actuator = require('intel-commerical-edge-network-database-models').ActuatorModel;
-var Trigger = require('intel-commerical-edge-network-database-models').TriggerModel;
-var Error = require('intel-commerical-edge-network-database-models').ErrorModel;
+var Data = require('intel-commerical-edge-network-database-models').Data;
+var Sensor = require('intel-commerical-edge-network-database-models').Sensor;
+var Actuator = require('intel-commerical-edge-network-database-models').Actuator;
+var Trigger = require('intel-commerical-edge-network-database-models').Trigger;
+var Error = require('intel-commerical-edge-network-database-models').Error;
 
 var express = require('express');
 var restapi = express();
