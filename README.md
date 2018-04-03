@@ -31,7 +31,7 @@ sudo systemctl enable mongodb
    `cd admin-interface`  
    `npm install`  
 4. Go to app folder and run  
-   `npm install -g bower`
+   `npm install -g bower`  
    `bower install`  
    You can select Answer '1' in all the options  
 5. Once all bower dependencies are installed, come back to admin-interface folder and type:  
